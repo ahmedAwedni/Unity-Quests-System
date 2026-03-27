@@ -6,9 +6,11 @@ A clean, modular, and event-driven Quest System for Unity. Built using **Scripta
 
 ## 📦 Included Scripts
 
-- ItemData.cs
-- InventoryItem.cs (A simple helper class to track how many of a specific item are in a slot.)
-- InventoryManager.cs (The "Brain" of the system. It handles adding, removing, and finding items.)
+- QuestState.cs
+- QuestObjective.cs
+- QuestData.cs
+- QuestInstance.cs
+- QuestManager.cs
 
 ---
 
