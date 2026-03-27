@@ -40,10 +40,12 @@ This Data-Oriented approach is memory-efficient and keeps your project highly or
 3. **Accepting a Quest:** Call this method from an NPC or an interaction script:
 
    questManager.AcceptQuest(myQuestDataReference);
-4. **Updating Progress:** When the player does something (like killing an enemy), update the objective:
+   
+5. **Updating Progress:** When the player does something (like killing an enemy), update the objective:
 
    // Updates Objective 0 of the "slayer_quest" by 1
       questManager.UpdateObjectiveProgress("slayer_quest", 0, 1);
+   
 5.**Listening for UI:** Subscribe your UI scripts to the static events to display notifications:
 
    QuestManager.OnQuestCompleted += ShowRewardPopup;
